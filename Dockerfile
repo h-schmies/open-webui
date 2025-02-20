@@ -20,6 +20,7 @@ ARG BUILD_HASH=dev-build
 ARG UID=0
 ARG GID=0
 
+
 ######## WebUI frontend ########
 FROM node:22-alpine3.20 AS build
 ARG BUILD_HASH
